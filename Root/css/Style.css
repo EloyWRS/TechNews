@@ -1,0 +1,123 @@
+﻿nav h1 {
+    font-size: 30pt;
+    text-align: left;
+    color: rgb(239, 148, 13);
+    background-color: #063352;
+    text-decoration: none;
+}
+
+h1 a {
+    font-size: 30pt;
+    text-align: left;
+    color: rgb(239, 148, 13);
+    background-color: #063352;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #063352;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+p {
+    color: rgb(163, 177, 188);
+}
+
+h1 {
+    color: #ddd;
+}
+
+h2 {
+    /*color: #ddd;*/
+    color: rgb(245, 248, 246);
+    /*background-color: #D6E6F2;*/
+}
+
+h3 {
+    /*color: #ddd;*/
+    color: rgb(245, 248, 246);
+    /*background-color: #D6E6F2;*/
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding-top: 5%;
+}
+
+footer {
+    background-color: #ddd;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 30px; /* Vertically center the text there */
+}
+
+#navbar {
+    background-color: #ddd;
+    overflow: hidden;
+}
+
+    #navbar a {
+        background-color: #ddd;
+        padding: 14px 16px;
+        display: block;
+        float: left;
+        color: black;
+        text-decoration: none;
+    }
+
+        #navbar a:hover {
+            background-color: #063352;
+            color: #ffffff;
+        }
+
+#home {
+    background-image: url('../../Images/highTechEarthLarge.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#newsbg {
+    background: rgb(57,125,152);
+    background: linear-gradient(117deg, rgba(57,125,152,1) 0%, rgba(1,26,40,1) 41%, rgba(2,18,27,1) 65%, rgba(1,26,40,1) 78%, rgba(27,79,99,1) 100%);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#img400 {
+    width: 400px;
+}
+
+#img550 {
+    width: 550px;
+}
+
+#width20 {
+    width: 400px;
+}
+
+#yellow {
+    color: #e3ff30;
+}
+
+#lightbluewire {
+    font-weight: bold;
+    color: rgb(22, 95, 150);
+}
+
+#gold {
+    color: rgb(239, 148, 13);
+}
+
+#legenda {
+    color: rgb(239, 148, 13);
+}
+
+#hiperlink {
+    color: rgb(14, 169, 26);
+}
