@@ -1,17 +1,30 @@
-﻿nav h1 {
+﻿header {
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+nav div h1 {    
     font-size: 30pt;
-    text-align: left;
-    color: rgb(239, 148, 13);
+    text-align:center;
+    margin-top: 0em;
+    margin-bottom: 0.4em;
+    color: rgb(179, 153, 32);
     background-color: #063352;
     text-decoration: none;
 }
+.row {      
+    
+    height: 4em;
+}
 
 h1 a {
-    font-size: 30pt;
-    text-align: left;
-    color: rgb(239, 148, 13);
-    background-color: #063352;
+    font-family: 'Koulen', cursive;
+    font-size: 30pt;    
+    color: rgb(212, 177, 51);
+    background-color: none;
     text-decoration: none;
+    word-break: keep-all;
 }
 
 nav {
@@ -57,12 +70,12 @@ footer {
 }
 
 #navbar {
-    background-color: #ddd;
+    background-color: #a6afae;
     overflow: hidden;
 }
 
     #navbar a {
-        background-color: #ddd;
+        background-color: #a6afae;
         padding: 14px 16px;
         display: block;
         float: left;
@@ -72,7 +85,7 @@ footer {
 
         #navbar a:hover {
             background-color: #063352;
-            color: #ffffff;
+            color: #0bbad7;
         }
 
 #home {
@@ -97,8 +110,10 @@ footer {
     width: 550px;
 }
 
-#width20 {
-    width: 400px;
+#homeresume {
+    width: 20%;
+    margin-top: 15em;
+    margin-left: 1em;
 }
 
 #yellow {
@@ -115,7 +130,7 @@ footer {
 }
 
 #legenda {
-    color: rgb(239, 148, 13);
+    color: #ddd;
 }
 
 #hiperlink {
